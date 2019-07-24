@@ -1,0 +1,26 @@
+import turtle
+
+t = turtle.Turtle()
+turtle.bgcolor('purple')
+t.color('blue')
+t.shape('arrow')
+t.pencolor('green')
+t.pensize(10)
+t.goto(0,-150)
+t.goto(75,-150)
+t.pencolor('blue')
+t.goto(75,0)
+t.left(90)
+
+t1 = turtle.Turtle()
+t1.color('white')
+t1.shape('circle')
+t1.pencolor('yellow')
+t1.pensize(5)
+t1.goto(0,150)
+t1.goto(-75,150)
+t1.pencolor('white')
+t1.goto(-75,0)
+t1.right(90)
+
+turtle.mainloop()
